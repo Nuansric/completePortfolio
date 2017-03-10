@@ -1,0 +1,26 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nuansric/Bootstrap-Portfolio-.git"
+  },
+  "author": "Chanita Nuansri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nuansric/Bootstrap-Portfolio-/issues"
+  },
+  "homepage": "https://github.com/Nuansric/Bootstrap-Portfolio-#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "nodemailer": "^3.1.5",
+    "path": "^0.12.7"
+  }
+}
