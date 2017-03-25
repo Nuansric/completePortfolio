@@ -52,7 +52,7 @@ a {
 }
 
 a:focus {
-  outline: thin dotted;
+  outline: thin dotted blue;
 }
 
 a:active,
@@ -6523,6 +6523,10 @@ button.close {
     margin-left: -15px;
     font-size: 30px;
   }
+  .img-responsive{
+    width:500px;
+    height:300px
+  }
   .carousel-caption {
     right: 20%;
     left: 20%;
@@ -6598,6 +6602,10 @@ td.visible-xs {
 }
 
 @media (max-width: 767px) {
+  .img-responsive{
+    width:649px;
+    height:500px
+  }
   .visible-xs {
     display: block !important;
   }
@@ -6627,6 +6635,10 @@ td.visible-xs {
   td.visible-xs.visible-sm {
     display: table-cell !important;
   }
+  .img-responsive{
+    width:715px;
+    height:500px
+  }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -6642,6 +6654,10 @@ td.visible-xs {
   th.visible-xs.visible-md,
   td.visible-xs.visible-md {
     display: table-cell !important;
+  }
+  .img-responsive{
+    width:940px;
+    height:500px
   }
 }
 
@@ -6659,6 +6675,10 @@ td.visible-xs {
   td.visible-xs.visible-lg {
     display: table-cell !important;
   }
+  .img-responsive{
+    width:400px;
+    height:300px
+  }
 }
 
 .visible-sm,
@@ -6669,6 +6689,7 @@ td.visible-sm {
 }
 
 @media (max-width: 767px) {
+
   .visible-sm.visible-xs {
     display: block !important;
   }
@@ -6685,6 +6706,7 @@ td.visible-sm {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+
   .visible-sm {
     display: block !important;
   }
@@ -6701,6 +6723,7 @@ td.visible-sm {
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
+  
   .visible-sm.visible-md {
     display: block !important;
   }
@@ -6717,6 +6740,7 @@ td.visible-sm {
 }
 
 @media (min-width: 1200px) {
+ 
   .visible-sm.visible-lg {
     display: block !important;
   }
@@ -6740,6 +6764,7 @@ td.visible-md {
 }
 
 @media (max-width: 767px) {
+ 
   .visible-md.visible-xs {
     display: block !important;
   }
@@ -6756,6 +6781,7 @@ td.visible-md {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+
   .visible-md.visible-sm {
     display: block !important;
   }
@@ -6772,6 +6798,7 @@ td.visible-md {
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
+ 
   .visible-md {
     display: block !important;
   }
@@ -6788,6 +6815,7 @@ td.visible-md {
 }
 
 @media (min-width: 1200px) {
+ 
   .visible-md.visible-lg {
     display: block !important;
   }
